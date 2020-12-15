@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/styles_pagina.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Demo</title>
+</head>
+
+<body>
+    <div id="gray" class="overlay3" class="cerrar" onclick="abrir();cerrar();esc()">&times;
+        <div id="menu" class="sidenav">
+            <a id="cerrar" href="javascript:void(0)" class="cerrar" onclick="cerrar();esc()"><svg class="circulo" height="100" width="100" onclick="abrir()">
+                    <circle cx="10" cy="10" r="8" stroke="cyan" stroke-width="2" fill="cyan" />  
+                </svg></a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+    <div id="main">
+        <nav id="navcustom" class="navbar navbar-expand-lg mr-auto">
+            <div class="container-fluid">
+                <a id="brand" class="navbar-brand" href="#"><strong>DEMO</strong></a>
+                    <span class="navbar-text" style="color: white;">
+                        Dario Maldonado Vargas
+                    </span>
+                <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+            </button>
+            </div>
+        </nav>
+
+                <svg class="circulo" height="100" width="100" onclick="abrir()">
+                    <circle cx="12" cy="12" r="10" stroke="white" stroke-width="3" fill="none" />  
+                </svg>
+
+            
+                
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/bocajuniors.jpg" class="d-block w-100" alt="Club Atlético Boca Juniors">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/tmpicomadero.jpg" class="d-block w-100" alt="Tampico Madero Futbol Club">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="img/america.jpg" class="d-block w-100" alt="Club América">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+
+<script src="js/animaciones.js"></script>
+
+</html>
